@@ -92,8 +92,11 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="elo-ds-Q5f"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1I-Z8-zJy" userLabel="Fast Button">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1I-Z8-zJy" userLabel="Fast Button">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="171.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <userDefinedRuntimeAttributes>
@@ -101,13 +104,16 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="cmF-24-reM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q4V-vR-hu0">
                                         <rect key="frame" x="0.0" y="171.5" width="343" height="172"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHb-h6-Je5" userLabel="Chipmunk Button">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHb-h6-Je5" userLabel="Chipmunk Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="172"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <userDefinedRuntimeAttributes>
@@ -115,8 +121,11 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="Fib-Iq-7sA"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSf-iG-xlp" userLabel="Darth Vader Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSf-iG-xlp" userLabel="Darth Vader Button">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="172"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <userDefinedRuntimeAttributes>
@@ -124,13 +133,16 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="QFM-vE-a3i"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rPt-hP-ccv">
                                         <rect key="frame" x="0.0" y="343.5" width="343" height="171.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pka-6S-OXk" userLabel="Echo Button">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pka-6S-OXk" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.5" height="171.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <userDefinedRuntimeAttributes>
@@ -138,8 +150,11 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="epv-zs-oIk"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXc-PZ-pPU" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXc-PZ-pPU" userLabel="Reverb Button">
                                                 <rect key="frame" x="171.5" y="0.0" width="171.5" height="171.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <userDefinedRuntimeAttributes>
@@ -147,6 +162,9 @@
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="P9c-ZI-Ff0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -164,6 +182,9 @@
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stopButtonPressed:" destination="W2Y-cF-Kc1" eventType="touchUpInside" id="WS5-bl-aW1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -177,6 +198,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tmx-0j-phd"/>
                     </view>
+                    <connections>
+                        <outlet property="chipmunkButton" destination="QHb-h6-Je5" id="Bc0-QX-Moh"/>
+                        <outlet property="echoButton" destination="Pka-6S-OXk" id="LKv-Cm-By7"/>
+                        <outlet property="rabbitButton" destination="p1I-Z8-zJy" id="cDY-t7-96N"/>
+                        <outlet property="reverbButton" destination="iXc-PZ-pPU" id="ERv-RW-Ov4"/>
+                        <outlet property="snailButton" destination="y7o-je-smW" id="cSh-FH-yRX"/>
+                        <outlet property="stopButton" destination="Hje-8G-BXI" id="Gb8-TP-oMf"/>
+                        <outlet property="vaderButton" destination="VSf-iG-xlp" id="uRf-lW-qzq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6f5-BC-0xD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
